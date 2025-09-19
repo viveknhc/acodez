@@ -379,7 +379,7 @@ nav .navbar-nav .nav-item .nav-link.active {
 }
 
 .blog {
-  background-image: url(../images/home/blog-bg.jpg);
+  background-image: url(../images/home/blog-bg.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1521,7 +1521,7 @@ footer .content-box .social-icons a {
     gap: 20px;
   }
   .blog {
-    background-image: url(../images/home/blog-bg.jpg);
+    background-image: url(../images/home/blog-bg.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
