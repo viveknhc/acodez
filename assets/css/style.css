@@ -402,6 +402,7 @@ nav .navbar-nav .nav-item .nav-link.active {
 .blog .articleSwiper .card {
   background-color: transparent;
   position: relative;
+  border: none;
 }
 .blog .articleSwiper .card .card-body {
   background-color: #fff;

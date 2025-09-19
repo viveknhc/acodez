@@ -528,7 +528,7 @@ nav {
 // blog
 
 .blog {
-    background-image: url(../images/home/blog-bg.jpg);
+    background-image: url(../images/home/blog-bg.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -556,6 +556,7 @@ nav {
 
             background-color: transparent;
             position: relative;
+            border: none;
 
 
             .card-body {
@@ -1963,7 +1964,7 @@ footer {
     // blog
 
     .blog {
-        background-image: url(../images/home/blog-bg.jpg);
+        background-image: url(../images/home/blog-bg.webp);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
