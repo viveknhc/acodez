@@ -300,6 +300,7 @@ nav {
             flex-direction: column;
             gap: 34px;
             padding: 87px 27px 27px 27px;
+            position: relative;
 
             h3 {
                 @include secondary_font_medium_weight();
@@ -324,11 +325,15 @@ nav {
                 left: -100%;
                 width: 100%;
                 height: 100%;
-                background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.208), transparent);
+                background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.517), transparent);
                 transition: left 0.5s;
             }
 
             &:hover {
+
+
+                transform: translateY(-20px);
+
                 &::after {
                     left: 100%;
                 }
@@ -378,6 +383,13 @@ nav {
                     padding: 40px 24px 36px 24px;
                     width: 41%;
                     height: 100%;
+                    transition: all 0.8s ease-in-out;
+
+                    &:hover {
+                        transform: translateY(-20px);
+                        transition: all 0.8s ease-in-out;
+                        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                    }
 
                     h4 {
                         font-size: 20px;
@@ -502,6 +514,39 @@ nav {
                 box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
                 border-radius: 16px;
                 max-width: 692px;
+                position: relative;
+
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: -100%;
+                    width: 100%;
+                    height: 100%;
+                    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.14), transparent);
+                    transition: left 1.5s;
+                    z-index: 11;
+                }
+
+
+
+                &:hover {
+                    background-color: $primary_color;
+
+                    &::after {
+                    left: 100%;
+                    transition: left 1.5s;
+                }
+
+                    h3 {
+                        color: $white_color
+                    }
+
+                    p {
+                        color: $white_color
+                    }
+                }
 
                 h3 {
                     @include primary_font_medium_weight();
@@ -557,6 +602,76 @@ nav {
             background-color: transparent;
             position: relative;
             border: none;
+            transition: all 0.5s ease-in-out;
+
+            &:hover {
+
+                transition: all 0.5s ease-in-out;
+
+                .card-body {
+                    background-color: $primary_color;
+                    border: 2px solid $white_color;
+                    transition: all 0.5s ease-in-out;
+
+                    h5 {
+                        color: $white_color;
+                        transition: all 0.5s ease-in-out;
+                    }
+
+                    p {
+                        color: $white_color;
+                        transition: all 0.5s ease-in-out;
+                    }
+
+                    a {
+                        color: $white_color;
+                        transition: all 0.5s ease-in-out;
+
+                        svg {
+
+                            path {
+
+                                fill: $white_color;
+                                transition: all 0.5s ease-in-out;
+                            }
+                        }
+
+                        p {
+
+                            color: $white_color;
+
+                        }
+                    }
+                }
+
+                .img-box {
+
+                    img {
+
+                        transform: scale(1.2);
+                        transition: all 0.5s ease-in-out;
+                    }
+                }
+
+            }
+
+            .img-box {
+                height: 328px;
+                overflow: hidden;
+                border-radius: 20px;
+                width: auto;
+                position: relative;
+
+                img {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    z-index: -1;
+                    transition: all 0.5s ease-in-out;
+
+
+                }
+            }
 
 
             .card-body {
@@ -565,6 +680,8 @@ nav {
                 border-radius: 16px;
                 margin: -120px 0 0 0;
                 width: 89%;
+                border: 2px solid $white_color;
+
 
 
 
@@ -626,6 +743,20 @@ nav {
             background-color: $white_color;
 
             .box {
+
+                &:hover{
+                    .circle{
+                        background-color: $primary_color;
+
+                        p{
+                            color: $white_color;
+                        }
+
+
+                    }
+
+                    
+                }
                 .circle {
                     background-color: #D9D9D9;
                     height: 100px;
