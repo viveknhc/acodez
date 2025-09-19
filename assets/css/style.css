@@ -156,6 +156,10 @@ nav .navbar-nav .nav-item .nav-link.active {
 .banner .content-box .text-box .primary-button-border {
   margin: 0 0 0 18px;
 }
+.banner .content-box .text-box .img-box {
+  display: flex;
+  flex-direction: column;
+}
 
 .why-section {
   padding: 0 0 104px 0;
@@ -1827,6 +1831,7 @@ footer .content-box .social-icons a {
     position: absolute;
     right: 0;
     top: -58px;
+    z-index: 1;
   }
   .certifications .wrap .item .box {
     padding: 56px 100px 50px 40px;
