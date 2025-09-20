@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 // variables
 $primary_color : #0B2A67;
@@ -16,12 +15,13 @@ $mobile: 768px;
 $tab: 999px;
 $ipad: 1024px;
 
-// global style
+// global style 
 * {
     font-family: $primary_font;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-display: swap;
 }
 
 
