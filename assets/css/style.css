@@ -127,7 +127,7 @@ nav .navbar-nav .nav-item .nav-link.active {
 }
 
 .banner .content-box {
-  background-image: url("../images/home/banner.webp");
+  background-image: url("../images/home/banner.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -155,10 +155,6 @@ nav .navbar-nav .nav-item .nav-link.active {
 }
 .banner .content-box .text-box .primary-button-border {
   margin: 0 0 0 18px;
-}
-.banner .content-box .text-box .img-box {
-  display: flex;
-  flex-direction: column;
 }
 
 .why-section {
@@ -726,6 +722,10 @@ footer .content-box .social-icons a {
   }
   .banner .content-box .text-box .primary-button-border {
     margin: 15px 0 0 0;
+  }
+  .banner .content-box .text-box .btn-box {
+    display: flex;
+    flex-direction: column;
   }
   .why-section {
     padding: 0 20px 104px 20px;
@@ -1455,6 +1455,10 @@ footer .content-box .social-icons a {
     font-style: normal;
     color: #ECEAE8;
     padding: 16px 0 32px 0;
+  }
+  .banner .content-box .text-box .btn-box {
+    display: flex;
+    flex-direction: column;
   }
   .banner .content-box .text-box .primary-button-border {
     margin: 15px 0 0 0;

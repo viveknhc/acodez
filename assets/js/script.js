@@ -4,10 +4,10 @@ var swiper = new Swiper(".articleSwiper", {
     spaceBetween: 10,
     grabCursor: true,
     loop: true,
-    // autoplay: {
-    //     delay: 2500,
-    //     disableOnInteraction: false,
-    // },
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
     breakpoints: {
 
         200: {

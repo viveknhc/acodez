@@ -219,7 +219,7 @@ nav {
 .banner {
 
     .content-box {
-        background-image: url('../images/home/banner.webp');
+        background-image: url('../images/home/banner.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -251,10 +251,7 @@ nav {
                 margin: 0 0 0 18px;
             }
 
-            .img-box{
-                display: flex;
-                flex-direction: column;
-            }
+            
         }
     }
 
@@ -980,6 +977,11 @@ footer {
                 .primary-button-border {
                     margin: 15px 0 0 0;
                 }
+
+                .btn-box{
+                display: flex;
+                flex-direction: column; 
+            }
             }
         }
 
@@ -1902,6 +1904,11 @@ footer {
                     color: #ECEAE8;
                     padding: 16px 0 32px 0;
                 }
+
+                .btn-box{
+                display: flex;
+                flex-direction: column;
+            }
 
                 .primary-button-border {
                     margin: 15px 0 0 0;
